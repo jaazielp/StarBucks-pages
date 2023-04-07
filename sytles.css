@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+    
+}
+
+.menu a{
+    color:  rgb(126, 125, 125);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    font-family: 'Manrope', sans-serif;
+    
+}
+
+.menu a:hover{
+    color: black;
+    
+}
+
+
+section.sobre{
+    height: calc(93% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -450px;
+    right: -400px;
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    background-color: #017143;
+}
+
+.coffee2{
+   position: absolute;
+   width: 25%;
+   right: 20%;
+   transition: transform 1s;
+}
+
+.coffee2:hover {
+    transform: scale(1.2);
+}
+
+.midia{
+    position: absolute;
+    right: 410px;
+    top: 180px;
+}
+
+.midia img{
+    display: block;
+    width: 20px;
+    margin: 20px 0;
+    transition: transform 1s;
+}
+
+.midia img:hover{
+    transform: scale(1.2);
+}
+
+.text-sobre{
+   margin-top: 50px
+}
+
+.text-sobre h1{
+    font-size: 50px;
+}
+
+.text-sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 600px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+}
+
+.text-sobre button{
+    border: 1px;
+    background-color: #017143;
+    color: white;
+    border-radius: 12px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+button:hover{
+    color: black;
+    transform: scale(1.2);
+}
+
+.coffee{
+    position: absolute;
+    right: 710px;
+    top: 381px;
+}
+
+.coffee img{
+    width: 40px;
+    margin: 20px 0;transition: transform 1s;
+}
+
+.coffee img:hover{
+    transform: scale(1.2);
+}
+
+
